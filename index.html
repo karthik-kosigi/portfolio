@@ -7,22 +7,21 @@
     <title>Karthik Kosigi - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-
         <h1>Karthik Kosigi</h1>
         <p>Computer Science Engineering Graduate | Aspiring IT Professional</p>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
     </header>
 
     <nav>
-        <ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-list" id="nav-list">
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -106,21 +105,18 @@
             <h3>CLI Chat Application</h3>
             <p>Developed a CLI chat application using Python. Implemented socket programming for server-client
                 communication and multithreading for multiple user connections. Enabled real-time text communication
-                with nicknames, messaging, and admin commands (e.g., /kick, /ban). Designed as an educational tool to
-                demonstrate socket programming and multithreading integration.</p>
+                with nicknames, messaging, and admin commands (e.g., /kick, /ban).</p>
         </div>
         <div class="project">
             <h3>Book Collection</h3>
             <p>Developed a CLI application for managing a book collection using Python and SQLite. Utilized OOP
-                principles to create and manage book objects. Implemented CRUD operations for adding, deleting,
-                updating, and viewing books in the collection. Designed an interactive menu-driven interface for
-                user-friendly operations.</p>
+                principles to create and manage book objects. Implemented CRUD operations for managing books in the
+                collection.</p>
         </div>
         <div class="project">
             <h3>Real Estate Management System</h3>
             <p>Developed a web app for managing real estate properties using HTML, CSS, JavaScript, Node.js, and
-                Express.js. Designed the system for three user types: admin, owner, and buyer, each with specific roles
-                and permissions. Integrated MySQL to manage property and user information.</p>
+                Express.js. Designed the system for three user types: admin, owner, and buyer.</p>
         </div>
     </section>
 
@@ -128,12 +124,12 @@
         <img src="img/success_16678385.gif" alt="Certifications" class="section-image">
         <h2>Certifications</h2>
         <ul>
-            <li>Web Development (Basic): Certificate for Building a Weather App, Bharat Intern</li>
-            <li>Database and SQL: Understanding, Creating, and Querying Relational Databases, Infosys Springboard</li>
+            <li>Web Development (Basic): Bharat Intern</li>
+            <li>Database and SQL: Infosys Springboard</li>
             <li>Core Python Programming: EZ Trainings & Technologies</li>
             <li>Data Structures and Algorithms using Java: Infosys Springboard</li>
             <li>Git and GitHub Crash Course: Infosys Springboard</li>
-            <li>Software Engineering: Introductory Course, Infosys Wingspan</li>
+            <li>Software Engineering: Infosys Wingspan</li>
         </ul>
     </section>
 
@@ -141,9 +137,8 @@
         <img src="img/award_14251542.gif" alt="Achievements" class="section-image">
         <h2>Achievements</h2>
         <ul>
-            <li>Project Leadership: Led a team to develop a Real Estate Management System meeting client specs and
-                enhancing operational efficiency.</li>
-            <li>Coding and Debugging: Participated in the competition at BITM.</li>
+            <li>Led a team to develop a Real Estate Management System meeting client specs.</li>
+            <li>Participated in coding and debugging competitions at BITM.</li>
         </ul>
     </section>
 
@@ -179,12 +174,11 @@
         </div>
     </section>
 
-
     <footer>
         <p>&copy; 2024 Karthik K. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
