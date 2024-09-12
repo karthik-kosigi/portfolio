@@ -156,11 +156,29 @@ h3 {
 
 /* Footer Styling */
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: var(--secondary-color);
     color: var(--main-bg-color);
     text-align: center;
     padding: 2rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    
+}
+footer p{
+    font-size: 1.1rem;
+}
+
+/* Adding Up Arrow icon */
+footer .checkout{
+    border: 2px solid var(--main-bg-color); 
+    border-radius: 3em;
+    align-self: center;
+    color:var(--main-bg-color);
+    padding: .4rem;
+
 }
 
 /* Alternating section backgrounds */
@@ -252,4 +270,6 @@ section:nth-child(odd) {
     .nav-list.active {
         display: flex;
     }
+
+
 }
